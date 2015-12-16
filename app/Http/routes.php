@@ -10,7 +10,9 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
+Route::get('/git', function(){
+	return "Git tutorial";
+});
 Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
