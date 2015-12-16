@@ -11,7 +11,7 @@
 |
 */
 Route::get('/git', function(){
-	return "Git tutorial";
+	return "Git tutorial code";
 });
 Route::get('/', 'WelcomeController@index');
 
